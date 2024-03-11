@@ -1,0 +1,6 @@
+	abc4 : anand : math : patna
+
+	abc5 : aditya : computer : ranchi
+
+	abc6 : aditya : gk : fgh
+
