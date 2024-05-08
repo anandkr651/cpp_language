@@ -45,7 +45,7 @@ void registration(login log)
         goto start;
     }
     ofstream outfile("login.txt",ios::app); //this can be used to write in the file. ios::app can be 
-    //used because when we write current data then the previous data is already save and the curren 
+    //used because when we write current data then the previous data is already save and the current 
     //data can be disply after the previous data.
     if(!outfile)
     {
@@ -122,7 +122,7 @@ int main()
         cin>>val;
         if(val==1)
         {
-             registration(log);
+            registration(log);
         }
         else if(val==2)
         {

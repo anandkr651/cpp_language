@@ -14,7 +14,7 @@ in order work with files in c++ you will have to open it, primarily, there are 2
 using namespace std;
 int main()
 {
-  string st = "hello friends";
+  string st = "hell friends";
   // opening files using constructor and writing it
   ofstream out("file_text1.txt");
   out << st;
@@ -25,9 +25,9 @@ int main()
   in>>str;    //a single word can be display on it.
   cout<<str;
 
-  string str2;
-  ifstream in("file_text2.txt");
-  getline(in, str2);      //a sentence can be display on it
-  cout << str2;
+  // string str2;
+  // ifstream in("file_text2.txt");
+  // getline(in, str2);      //a sentence can be display on it
+  // cout << str2;
   return 0;
 }
