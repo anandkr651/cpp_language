@@ -5,6 +5,9 @@
 3. they cannot return values and do not have return types.
 4. it can have default arguments.
 5. we cannot refer to their address.
+6. two types of constructor are:-
+   a. default constructor
+   b. parameterized constructor
 */
 // ################# creating a constructor #####################
 
@@ -20,13 +23,13 @@ class complx
   int a, b;
 
 public:
-  complx(void); // constructor deceleration
+  complx(); // constructor deceleration
   void printnumber()
   {
     cout << "your number is " << a << " + " << b << "i" << endl;
   }
 };
-complx ::complx(void) // this is a default constructor as it takes no parameters
+complx ::complx() // this is a default constructor as it takes no parameters
 {
   a = 10;
   b = 20;

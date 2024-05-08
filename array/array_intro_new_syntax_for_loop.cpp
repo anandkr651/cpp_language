@@ -1,20 +1,24 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int x[5],i;
-    cout<<"enter five element";
-    for(i=0;i<5;i++)
-    cin>>x[i];
-    cout<<"elements are :-"<<endl;
-    for(i=0;i<5;i++)
-    cout<<x[i]<<endl;
-    
-    cout<<"new syntax for loop c++11"<<endl;
-    for(int p:x)
+    int x[5], i;
+    cout << "enter five element";
+    for (i = 0; i < 5; i++)
     {
-        cout<<p<<" ";
-    }cout<<endl;
+        cin >> x[i];
+    }
+    cout << "elements are :-" << endl;
+    for (i = 0; i < 5; i++)
+    {
+        cout << x[i] << endl;
+    }
+    cout << "new syntax for loop c++11" << endl;
+    for (int p : x)
+    {
+        cout << p << " ";
+    }
+    cout << endl;
 }
 /*enter five element1
 2

@@ -1,15 +1,16 @@
-/*#include<iostream>
+#include <iostream>
 using namespace std;
 class a
 {
-    private:
+private:
     int x;
     static int y;
-    public:
+
+public:
     void getdata(int a)
     {
-        x=a;
-        cout<<"x ="<<x<<endl;
+        x = a;
+        cout << "x =" << x << endl;
     }
     int show()
     {
@@ -17,18 +18,18 @@ class a
         return y;
     }
 };
-int a ::y=0;
+int a ::y = 0;
 int main()
 {
-    a t,s,r;
+    a t, s, r;
     t.getdata(10);
-    cout<<"y ="<<t.show()<<endl;
+    cout << "y =" << t.show() << endl;
     s.getdata(20);
-    cout<<"y ="<<s.show()<<endl;
+    cout << "y =" << s.show() << endl;
     r.getdata(30);
-    cout<<"y ="<<r.show()<<endl;
+    cout << "y =" << r.show() << endl;
     return 0;
-}*/
+}
 /*x =10
 y =1
 x =20
@@ -37,27 +38,28 @@ x =30
 y =3
 PS C:\Users\DELL\OneDrive\Desktop\c++\college>*/
 
-// #include<iostream>
+// #include <iostream>
 // using namespace std;
 // class a
 // {
-//     private:
+// private:
 //     static int y;
-//     public:
+
+// public:
 //     void show(int);
 //     static void getdata(int a)
 //     {
-//         y=a;
+//         y = a;
 //         ++y;
-//         cout<<"y="<<y<<endl;
+//         cout << "y=" << y << endl;
 //     }
 // };
-// int a ::y=0;
+// int a ::y = 0;
 // void a ::show(int b)
 // {
 //     int x;
-//     x=b;
-//     cout<<"x ="<<x<<endl;
+//     x = b;
+//     cout << "x =" << x << endl;
 // }
 // int main()
 // {

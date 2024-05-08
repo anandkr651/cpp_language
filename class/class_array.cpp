@@ -8,23 +8,23 @@ class shop
     int counter;
 
 public:
-    void initcounter(void)
+    void initcounter()
     {
         counter = 0;
     }
-    void setprice(void);
-    void displayprice(void);
+    void setprice();
+    void displayprice();
 };
 
-void shop ::setprice(void)
+void shop ::setprice()
 {
     cout << "enter id of your item number " << counter + 1 << endl;
     cin >> itemid[counter];
     cout << "enter price of your item " << endl;
     cin >> itemprice[counter];
-    counter++;
+    counter++;    //counter is increased by 1
 }
-void shop ::displayprice(void)
+void shop ::displayprice()
 {
     for (int i = 0; i < counter; i++)
     {
@@ -77,7 +77,7 @@ public:
         len = l;
         br = b;
     }
-    void displaydata(void)
+    void displaydata()
     {
         cout << "length " << len << endl;
         cout << "breadth " << br << endl;

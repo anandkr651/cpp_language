@@ -27,7 +27,6 @@
 // class a1
 // {
 //     int x;
-
 // public:
 //     void getdata(int a)
 //     {

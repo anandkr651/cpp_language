@@ -57,10 +57,10 @@ int main()
     int res = calc.sumrealcomplex(o1, o2);
     int ult = com.sumcomcomplex(o1, o2);
     cout << "the sum of real part of o1 and o2 is " << res << endl;
-    cout << "the sum of real part of o1 and o2 is " << ult << endl;
+    cout << "the sum of imaginary part of o1 and o2 is " << ult << endl;
 }
 /*your number is 1 + 4i
 your number is 5 + 7i
 the sum of real part of o1 and o2 is 6
-the sum of real part of o1 and o2 is 11
+the sum of imaginary part of o1 and o2 is 11
 PS C:\Users\DELL\OneDrive\Desktop\c++> */

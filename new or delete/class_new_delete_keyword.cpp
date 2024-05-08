@@ -1,29 +1,29 @@
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// class complex
-// {
-//     int real, imaginary;
+class complex
+{
+    int real, imaginary;
 
-// public:
-//     void getdata()
-//     {
-//         cout << "the real part is " << real << endl;
-//         cout << "the imaginary part is " << imaginary << endl;
-//     }
-//     void setdata(int a, int b)
-//     {
-//         real = a;
-//         imaginary = b;
-//     }
-// };
-// int main()
-// {
-//     complex c1;
-//     c1.setdata(3,6);
-//     c1.getdata();
-//     return 0;
-// }
+public:
+    void getdata()
+    {
+        cout << "the real part is " << real << endl;
+        cout << "the imaginary part is " << imaginary << endl;
+    }
+    void setdata(int a, int b)
+    {
+        real = a;
+        imaginary = b;
+    }
+};
+int main()
+{
+    complex c1;
+    c1.setdata(3,6);
+    c1.getdata();
+    return 0;
+}
 /*the real part is 3
 the imaginary part is 6
 PS C:\Users\DELL\OneDrive\Desktop\c++> */

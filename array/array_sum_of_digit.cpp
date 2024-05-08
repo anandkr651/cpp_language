@@ -1,36 +1,40 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int x[2][3],i,j,s,d,num;
-    cout<<"enter the elements";
-    for(i=0;i<2;i++)
+    int x[2][3], i, j, s, d, num;
+    cout << "enter the elements";
+    for (i = 0; i < 2; i++)
     {
-        for(j=0;j<3;j++)
-        cin>>x[i][j];
-    }
-    cout<<"matrix are"<<endl;
-      for(i=0;i<2;i++)
-    {
-        for(j=0;j<3;j++)
-        cout<<x[i][j]<<"\t";
-        cout<<endl;
-    }
-    cout<<"sum of digit"<<endl;
-    for(i=0;i<2;i++)
-    {
-        for(j=0;j<3;j++)
+        for (j = 0; j < 3; j++)
         {
-            s=0;
-            num=x[i][j];
-            while(num>0)
+            cin >> x[i][j];
+        }
+    }
+    cout << "matrix are" << endl;
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            cout << x[i][j] << "\t";
+        }
+        cout << endl;
+    }
+    cout << "sum of digit" << endl;
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            s = 0;
+            num = x[i][j];
+            while (num > 0)
             {
-                d=num%10;
-                s=s+d;
-                num=num/10;
+                d = num % 10;
+                s = s + d;
+                num = num / 10;
             }
-            cout<<x[i][j];
-            cout<<"sum "<<s<<endl;
+            cout << x[i][j];
+            cout << "sum " << s << endl;
         }
     }
 }

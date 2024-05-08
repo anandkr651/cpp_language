@@ -1,36 +1,37 @@
-/*#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int age1 = 32;
-    int age2 (32);
-    int age3 {32};
-    cout<<age1<<endl<<age2<<endl<<age3<<endl;
-}*/
+    int age2(32);
+    int age3{32};
+    cout << age1 << endl
+         << age2 << endl
+         << age3 << endl;
+}
 /*32
 32
 32*/
 
-
-/*#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-int i = 10;
-int &j = i;
-cout<<"i ="<<i<<"j ="<<j<<endl;
-j = 20;
-cout<<"i ="<<i<<"j ="<<j<<endl;
-i = 30;
-cout<<"i ="<<i<<"j ="<<j<<endl;
-i++;
-cout<<"i ="<<i<<"j ="<<j<<endl;
-j++;
-cout<<"i ="<<i<<"j ="<<j<<endl;
-cout<<"address of i = "<<&i<<"address of j ="<<&j<<endl;
-return 0;
-}*/
+    int i = 10;
+    int &j = i;
+    cout << "i =" << i << "j =" << j << endl;
+    j = 20;
+    cout << "i =" << i << "j =" << j << endl;
+    i = 30;
+    cout << "i =" << i << "j =" << j << endl;
+    i++;
+    cout << "i =" << i << "j =" << j << endl;
+    j++;
+    cout << "i =" << i << "j =" << j << endl;
+    cout << "address of i = " << &i << "address of j =" << &j << endl;
+    return 0;
+}
 /*i =10j =10
 i =20j =20
 i =30j =30
@@ -49,8 +50,7 @@ j = 20;
 cout << "i =" << i << "j =" << j;
 return 0;
 }*/
-//error
-
+// error
 
 /*#include<iostream>
 using namespace std;
@@ -63,31 +63,33 @@ j = 20;
 cout << i << j;
 return 0;
 }*/
-//error
+// error
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-// int i = 10;
-// const int &j = i;
-// cout << i << j<<endl;
-// i = 20;
-// cout << i << j;
-// return 0;
-// }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i = 10;
+    const int &j = i;
+    cout << i << j << endl;
+    i = 20;
+    cout << i << j;
+    return 0;
+}
 /*1010
 2020
 PS C:\Users\DELL\OneDrive\Desktop\c++\book>*/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-bool x, y;
-int a = 10, b = 20, c = 30;
-x = a < b;
-y = b >= c;
-cout<<x<<endl<<y;
+int main()
+{
+    bool x, y;
+    int a = 10, b = 20, c = 30;
+    x = a < b;
+    y = b >= c;
+    cout << x << endl
+         << y;
 }
 /*1
 0

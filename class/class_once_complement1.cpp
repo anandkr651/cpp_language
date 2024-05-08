@@ -7,13 +7,13 @@ using namespace std;
 class binary
 {
     string s;
-    void check_binary(void); // 2
+    void check_binary(); 
 
 public:
-    void read(void);
-    // void check_binary(void);               2
-    void onse_complement(void);
-    void display(void);
+    void read();
+    // void check_binary();
+    void onse_complement();
+    void display();
 };
 
 void binary ::read(void)
@@ -34,7 +34,7 @@ void binary ::check_binary(void)
 }
 void binary ::onse_complement(void)
 {
-    check_binary(); // 1
+    check_binary(); 
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
@@ -59,7 +59,7 @@ int main()
 {
     binary b;
     b.read();
-    // b.check_binary();              1
+    // b.check_binary();
     b.display();
     b.onse_complement();
     b.display();

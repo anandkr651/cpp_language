@@ -6,6 +6,13 @@ class complx
     int a,b,c,l,q,w;
 
 public:
+complx(){}
+complx(int x,int y)
+{
+   a=x;
+   b=y;
+
+}
     void setdata(int v1, int v2)
     {
         a = v1;
@@ -42,7 +49,7 @@ public:
 
 int main()
 {
-    complx c1, c2, c3;
+    complx c1, c2, c3, c4(11,16);
     c1.setdata(4, 5);
     c1.printnumber();
 
@@ -52,6 +59,9 @@ int main()
     c3.setdatabysum(c1, c2);
     c3.printnumber();
 
+    c4.setdatabysum(c2);
+    c4.printnumbersum();  
+
     c1.setdatabysum(c2);
     c1.printnumbersum();
 
@@ -59,9 +69,10 @@ int main()
     c1.printnumbermul();
 
 }
-/*your complex number is 4 + 5i
-your complex number is 6 + 7i
-your complex number is 10 + 12i
-your complex number is 10 + 12i
+/*your complex number is 4 + 5i   
+your complex number is 6 + 7i   
+your complex number is 10 + 12i 
+your complex number is 17 + 23i 
+your complex number is 10 + 12i 
 your complex number is -11 + 58i
-PS C:\Users\DELL\OneDrive\Desktop\c++\class>*/
+PS C:\Users\DELL\OneDrive\Desktop\cpp\class>*/

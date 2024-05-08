@@ -8,6 +8,9 @@ protected:
 
 private:
     int b;
+
+public:
+    int c;
 };
 
 /*
@@ -18,15 +21,14 @@ for a protected member:
 3. public members         public               private               protected
 */
 
-class derived : protected base
+class derived : private base
 {
 };
 
 int main()
 {
-    base b;
-    derived d;
-    // cout<<d.a;    //will not work since a is protected in both base as well as derived class
+    base x;
+    derived y;
+    // cout << x.a; // will not work since a is protected in both base as well as derived class
 }
-
 /*PS C:\Users\DELL\OneDrive\Desktop\c++> */
