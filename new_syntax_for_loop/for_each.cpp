@@ -26,3 +26,6 @@ int main()
     for_each(arr,arr+5,print_even);
     return 0;
 }
+/*the array contains the following even numbers
+2 4 
+PS C:\Users\DELL\OneDrive\Desktop\cpp\new_syntax_for_loop>*/

@@ -1,13 +1,13 @@
-// #include<iostream>
-// using namespace std;
-// class hero{
-//       //properties
-// };
-// int main()
-// {
-//   hero h1;
-//   cout<<"the size of the empty class "<<sizeof(h1);
-// }
+#include<iostream>
+using namespace std;
+class hero{
+      //properties
+};
+int main()
+{
+  hero h1;
+  cout<<"the size of the empty class "<<sizeof(h1);
+}
 /*the size of the empty class 1
 PS C:\Users\DELL\OneDrive\Desktop\c++\class>*/
 
