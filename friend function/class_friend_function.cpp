@@ -20,7 +20,7 @@ public:
         a = n1;
         b = n2;
     }
-    // below line mean that non member - sumcomplex function is allowed to do anything with my private parts(member)
+    // below line mean that non member - sumcomplex function is allowed to do anything with my private data(member)
     friend complex sumcomplex(complex o1, complex o2);
     void printnumber()
     {
