@@ -104,14 +104,19 @@ int main()
 /*In speed of Vehicle
 In maintenance of Vehicle    
 In value of Vehicle
+
 In speed of FourWheeler      
 In maintenance of FourWheeler
+
 In speed of TwoWheeler       
 In maintenance of TwoWheeler 
+
 In speed of AirBorne
-In maintenance of Vehicle    
+In maintenance of Vehicle  
+
 In value of Vehicle
 In value of Vehicle
+
 In speed of Vehicle
 In speed of FourWheeler
 In maintenance of Vehicle

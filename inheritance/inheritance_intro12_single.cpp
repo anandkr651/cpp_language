@@ -44,7 +44,7 @@ public:
 int main()
 {
     NewEx e;
-    e.fun();
+    e.fun();  //member function is define in both the base class and derived class.but they can access the derive class method .
     e.save();
     e.enc();
     e.autoUpdate();

@@ -34,7 +34,6 @@ class derivedclass : public baseclass{
 int main()
 {
     baseclass *baseclass_pointer;
-    baseclass objbase;
     derivedclass objderived;
 
     baseclass_pointer = &objderived; //pointing to base class pointer to derived class

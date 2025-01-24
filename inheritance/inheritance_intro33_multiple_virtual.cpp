@@ -1,15 +1,7 @@
 /*why we should used virtual keyword
-in c++ the `virtual` keyword is used in multiple inheritance to indicate that a base class function should 
-be treated as a virtual function, allowing for proper polymorphic behavior when dealing with derived classes.
+in c++ the `virtual` keyword is used in multiple inheritance to indicate that a base class function should be treated as a virtual function, allowing for proper polymorphic behavior when dealing with derived classes.
 
-when a class is derived from multiple base classes and these base classes have a comman ancestor with a virtual
-function, using the `virtual` keyword ensures that the derived class overrides that function correctly. this 
-helps in resolving ambiguities that may arise due to multiple inheritance as it ensures that correct version of
-the function from the most derived class is called .
-without the `virtual` keyword, the deived class might end up with multiple instances of the base class function
-leading to ambiguity and potential error in the program. using `virtual` help in acheving a more predictable 
-and desired behavior when working with polymorphism and multiple inheritance in c++*/
-
+when a class is derived from multiple base classes and these base classes have a comman ancestor with a virtual function, using the `virtual` keyword ensures that the derived class overrides that function correctly. this helps in resolving ambiguities that may arise due to multiple inheritance as it ensures that correct version of the function from the most derived class is called . without the `virtual` keyword, the deived class might end up with multiple instances of the base class function leading to ambiguity and potential error in the program. using `virtual` help in acheving a more predictable and desired behavior when working with polymorphism and multiple inheritance in c++*/
 
 #include <iostream>
 using namespace std;

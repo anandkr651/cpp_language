@@ -22,7 +22,6 @@ public:
 int main()
 {
   baseclass *baseclass_pointer;
-  baseclass objbase;
   derivedclass objderived;
 
   baseclass_pointer = &objderived;
