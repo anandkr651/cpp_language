@@ -152,3 +152,30 @@ double sum(double a, int b)
 sum16
 sum15
 PS C:\Users\DELL\OneDrive\Desktop\c++>*/
+
+
+// it give an error because these function will receive the same type of argument and differ only in their return type. The overloaded functions must at least differ in the type, number or order of parameters they accept. Difference only in return type is not enough to consider them as overloaded functions
+
+// #include <iostream>
+// using namespace std;
+
+// void sum(int, int);
+// double sum(int, int);
+
+// int main()
+// {
+//     int x, y;
+//     double p, q;
+//     cout << "enter the number";
+//     cin >> x >> y >> p >> q;
+//     sum(x, p);
+//     cout << "sum" << sum(p, y);
+// }
+// void sum(int a, int b)
+// {
+//     cout << "sum" << (a + b) << endl;
+// }
+// double sum(int a, int b)
+// {
+//     return (a + b);
+// }
