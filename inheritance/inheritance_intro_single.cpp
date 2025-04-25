@@ -19,7 +19,7 @@ public:
         id = inpid;
         salary = 34.0;
     }
-    employee() {}
+    employee() {}  //Because C++ needs to construct the base class part of the object first. If you don’t tell it which constructor to use, it assumes the default one.
 };
 
 // derived class syntax

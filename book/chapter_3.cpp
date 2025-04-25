@@ -53,17 +53,17 @@ chapter_3.cpp:40:1: error: 'fun2' was not declared in this scope; did you mean '
       | fun1
 PS C:\Users\DELL\OneDrive\Desktop\c++\book>*/
 
-// #include <iostream>
-// using namespace std;
-// void fun(int i = 10, float a = 3.14)
-// {
-//    cout << i << a;
-// }
-// int main()
-// {
-//    fun();
-//    return 0;
-// }
+#include <iostream>
+using namespace std;
+void funa(int i = 10, float a = 3.14)
+{
+   cout << i << a;
+}
+int main()
+{
+   funa();
+   return 0;
+}
 /*103.14
 PS C:\Users\DELL\OneDrive\Desktop\c++\book>*/
 

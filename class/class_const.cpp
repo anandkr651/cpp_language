@@ -36,7 +36,6 @@ public:
 };
 void a1 ::display() const
 {
-    x;
     cout << "x=" << x << endl;
 }
 int main()
